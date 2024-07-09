@@ -10,24 +10,36 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="header">
-            <div class="header-img">
-                <img src="data/profile_img.jpg" width="360"/>
+        <div id="header">
+            <div id="nav">
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code-example">Code Example</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                    <li><a href="#contacts">My Contacts</a></li>
+                </ul>
             </div>
-            
-            <div class="header-label">
-                <h1>Iliya Cvetkov</h2>
-                <h2 style="margin-top: 20px;">Portfolio page</h3>
+            <div id="head">
+                <div class="header-img">
+                    <img src="data/profile_img.jpg" width="360"/>
+                </div>
+                
+                <div class="header-label">
+                    <h1>Iliya Cvetkov</h2>
+                    <h2 style="margin-top: 20px;">Portfolio page</h3>
+                </div>
             </div>
         </div>
-        <div class="about info-block">
+        <div id="about" class="info-block">
             <h3 class="info-label">About Me</h3>
             <p>I'm 27 years old design engineer from Ekaterinburg. My actual job is not as creative as I want, it's more about mechenical analysis, which is 
                 so boring sometimes. That's why I'm here. Want to learn new creativity skills and try to work in a different way. I choose front-end development, 
                 because I thought that it is the most creative field of programming.
             </p>
         </div>
-        <div class="skills info-block">
+        <div id="skills" class="info-block">
             <h3 class="info-label">Skills</h3>
             <ul class="info-list">
                 <li>Python (basic knowledge)</li>
@@ -36,7 +48,7 @@
                 <li>Photo editors (Photoshop, Paint.net, Pixlr)</li>
             </ul>
         </div>
-        <div class="code-example info-block">
+        <div id="code-example" class="info-block">
             <h3 class="info-label">Code Example</h3>
             <div class="code-block">
 <pre>
@@ -51,23 +63,23 @@ function compose() {
         return f;
     };
 }</pre>
+            </div>
         </div>
-        </div>
-        <div class="education info-block">
+        <div id="education" class="info-block">
             <h3 class="info-label">Education</h3>
             <ul class="info-list">
                 <li>URFU (Institute of Physics and Technology)</li>
                 <li>Engineer of electronics and automation of physical installations.</li>
             </ul>
         </div>
-        <div class="languages info-block">
+        <div id="languages" class="info-block">
             <h3 class="info-label">Languages</h3>
             <ul class="info-list">
                 <li>Russian - native speaker</li>
                 <li>English - A2</li>
             </ul>
         </div>
-        <div class="contacts info-block">
+        <div id="contacts" class="info-block">
             <h3 class="info-label">My Contacts</h3>
             <ul class="info-list">
                 <li>
@@ -92,7 +104,7 @@ function compose() {
                 </li>
             </ul>
         </div>
-        <div class="footer">
+        <div id="footer">
             <div><h2>Footer Logo</h2></div>
             <div><h3>Special for Mn1my1</h3></div>
         </div>
